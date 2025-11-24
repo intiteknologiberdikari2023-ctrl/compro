@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -50,7 +50,7 @@ export default function Navbar() {
         <div className="container mx-auto px-4">
           <div className="relative flex items-center justify-between">
             <Link className="inline-block" href="/">
-              <img className="h-12" src="images/inteb.png" alt="Logo" />
+              <Image width={50} height={100} className="h-12" src="/images/inteb.png" alt="Logo" />
             </Link>
 
             {/* Desktop Nav */}
@@ -107,7 +107,7 @@ export default function Navbar() {
         <nav className="relative flex flex-col py-7 px-10 m-3 h-full-90 bg-glass-blur overflow-y-auto">
           <div className="flex items-center justify-between">
             <Link href="/">
-              <img className="h-8" src="images/inteblogo.png" alt="Logo" />
+              <Image width={50} height={100} className="h-8" src="/images/inteblogo.png" alt="Logo" />
             </Link>
             <button onClick={() => setMobileNavOpen(false)}>
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none">

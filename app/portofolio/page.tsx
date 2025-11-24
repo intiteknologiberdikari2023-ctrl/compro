@@ -1,36 +1,49 @@
+import Image from "next/image";
 export default function Portofolio() {
   return (
     <>
       <section className="bg-gray-primary pb-12 pt-52 lg:pb-24 relative overflow-hidden">
-        <img
+        <Image
+          width={100}
+          height={100}
           className="absolute top-0 left-0 w-full"
-          src="quantam-assets/career/lines-horizontal-waves-bg.png"
+          src="/quantam-assets/career/lines-horizontal-waves-bg.png"
           alt=""
         />
         <div className="container mx-auto px-4 relative">
-          <img
+          <Image
+            width={100}
+            height={100}
             className="absolute top-0 left-0 mt-36 md:mt-24"
-            src="images/tech/tech-float-1.png"
+            src="/images/tech/tech-float-1.png"
             alt=""
           />
-          <img
+          <Image
+            width={100}
+            height={100}
             className="absolute top-0 left-0 md:ml-10 lg:ml-32 -mt-24 sm:-mt-16"
-            src="images/tech/tech-float-2.png"
+            src="/images/tech/tech-float-2.png"
             alt=""
           />
-          <img
+          <Image
+            width={100}
+            height={100}
             className="absolute top-0 left-1/2 transform -translate-x-1/2 -mt-32"
-            src="images/tech/tech-float-3.png"
+            src="/images/tech/tech-float-3.png"
             alt=""
           />
-          <img
+          <Image
+            width={100}
+            height={100}
             className="absolute top-0 right-0 -mt-24 sm:-mt-10 md:-mr-10 lg:-mr-0"
-            src="images/tech/tech-float-4.png"
+            src="/images/tech/tech-float-4.png"
             alt=""
           />
-          <img
+          <Image
+            width={100}
+            height={100}
             className="absolute top-4 right-0 mt-36 md:mt-24 lg:mr-32"
-            src="images/tech/tech-float-5.png"
+            src="/images/tech/tech-float-5.png"
             alt=""
           />
           <div className="text-center mb-32">
@@ -52,20 +65,23 @@ export default function Portofolio() {
                   Sistem Pemantauan Pertanian
                 </h4>
                 <p className="text-gray-600">
-                Pantau Pertanian Lebih Mudah, Akurat, dan Efisien
+                  Pantau Pertanian Lebih Mudah, Akurat, dan Efisien
                 </p>
               </div>
 
               {/* Gambar muncul dari bawah (desktop saja) */}
               <div className="absolute bottom-0 md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-500 ease-in-out mx-auto p-2">
-                <img src="images/portofolio/pantau2.png" />
+                <Image
+                  width={280} height={90}
+                  src="/images/portofolio/pantau2.png"
+                  alt="Pantau 2"
+                />
               </div>
 
               {/* Tombol muncul di pojok kanan atas saat hover */}
               <a
                 href="/portofolio1"
-                className="absolute bg-glass-primary-15 top-4 right-4 opacity-0 group-hover:opacity-100 transition duration-300 inline-flex items-center gap-2 p-1"
-              >
+                className="absolute bg-glass-primary-15 top-4 right-4 opacity-0 group-hover:opacity-100 transition duration-300 inline-flex items-center gap-2 p-1">
                 <span className="text-neutral-600 font-semibold group-hover:text-neutral-800 tracking-tight transition duration-200">
                   Learn more
                 </span>
@@ -75,14 +91,12 @@ export default function Portofolio() {
                     width="12"
                     height="12"
                     viewBox="0 0 12 12"
-                    fill="none"
-                  >
+                    fill="none">
                     <path
                       fillRule="evenodd"
                       clipRule="evenodd"
                       d="M6 1L5.2825 1.6965L9.086 5.5H1V6.5H9.086L5.293 10.293L6 11L11 6L6 1Z"
-                      fill="#19191B"
-                    ></path>
+                      fill="#19191B"></path>
                   </svg>
                 </div>
               </a>
@@ -96,20 +110,23 @@ export default function Portofolio() {
                   Landing Pages Startup
                 </h4>
                 <p className="text-gray-600">
-                Pantau Pertanian Lebih Mudah, Akurat, dan Efisien
+                  Pantau Pertanian Lebih Mudah, Akurat, dan Efisien
                 </p>
               </div>
 
               {/* Gambar muncul dari bawah (desktop saja) */}
               <div className="absolute bottom-0 md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-500 ease-in-out mx-auto p-2">
-                <img src="images/portofolio/kk2.png" />
+                <Image
+                  width={280} height={90}
+                  src="/images/portofolio/kk2.png"
+                  alt="KK 2"
+                />
               </div>
 
               {/* Tombol muncul di pojok kanan atas saat hover */}
               <a
                 href="/portofolio2"
-                className="absolute bg-glass-primary-15 top-4 right-4 opacity-0 group-hover:opacity-100 transition duration-300 inline-flex items-center gap-2 p-1"
-              >
+                className="absolute bg-glass-primary-15 top-4 right-4 opacity-0 group-hover:opacity-100 transition duration-300 inline-flex items-center gap-2 p-1">
                 <span className="text-neutral-600 font-semibold group-hover:text-neutral-800 tracking-tight transition duration-200">
                   Learn more
                 </span>
@@ -119,20 +136,17 @@ export default function Portofolio() {
                     width="12"
                     height="12"
                     viewBox="0 0 12 12"
-                    fill="none"
-                  >
+                    fill="none">
                     <path
                       fillRule="evenodd"
                       clipRule="evenodd"
                       d="M6 1L5.2825 1.6965L9.086 5.5H1V6.5H9.086L5.293 10.293L6 11L11 6L6 1Z"
-                      fill="#19191B"
-                    ></path>
+                      fill="#19191B"></path>
                   </svg>
                 </div>
               </a>
             </div>
           </div>
-          
         </div>
       </section>
     </>

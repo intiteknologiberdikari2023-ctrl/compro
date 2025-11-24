@@ -1,10 +1,13 @@
+import Image from "next/image";
 export default function services() {
   return (
     <>
       <section className="relative py-12 bg-gradient overflow-hidden">
-        <img
+        <Image
+        width={100}
+        height={100}
           className="absolute top-0 right-0"
-          src="images\background\waves-right-top.png"
+          src="/images/background/waves-right-top.png"
           alt=""
         />
         <div className="container mx-auto px-4 relative">

@@ -1,36 +1,37 @@
+import Image from "next/image";
 export default function Portofolio1() {
   return (
     <>
       <section className="bg-gray-primary pb-12 pt-52 lg:pb-24 relative overflow-hidden">
-        <img
+        <Image width={100} height={100}
           className="absolute top-0 left-0 w-full"
-          src="quantam-assets/career/lines-horizontal-waves-bg.png"
+          src="/quantam-assets/career/lines-horizontal-waves-bg.png"
           alt=""
         />
         <div className="container mx-auto px-4 relative">
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 left-0 mt-36 md:mt-24"
-            src="images/tech/tech-float-1.png"
+            src="/images/tech/tech-float-1.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 left-0 md:ml-10 lg:ml-32 -mt-24 sm:-mt-16"
-            src="images/tech/tech-float-2.png"
+            src="/images/tech/tech-float-2.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 left-1/2 transform -translate-x-1/2 -mt-32"
-            src="images/tech/tech-float-3.png"
+            src="/images/tech/tech-float-3.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 right-0 -mt-24 sm:-mt-10 md:-mr-10 lg:-mr-0"
-            src="images/tech/tech-float-4.png"
+            src="/images/tech/tech-float-4.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 right-0 mt-36 md:mt-24 lg:mr-32"
-            src="images/tech/tech-float-5.png"
+            src="/images/tech/tech-float-5.png"
             alt=""
           />
           <div className="text-center mb-32  z-99999">
@@ -77,9 +78,9 @@ export default function Portofolio1() {
                     </p>
                   </div>
                   <div className="flex justify-end items-end">
-                    <img
-                      src="images/portofolio/pantau1.png"
-                      className="w-auto"
+                  <Image width={400} height={300}
+                      src="/images/portofolio/pantau1.png"
+                      className="h-auto"
                       alt=""
                     />
                   </div>
@@ -95,8 +96,8 @@ export default function Portofolio1() {
                       Menampilkan data terkini mulai dari prakiraan cuaca,
                       jumlah lahan, hingga status oprasional kegiatan.
                     </p>
-                    <img
-                      src="images/portofolio/pantau2.png"
+                    <Image width={300} height={700}
+                      src="/images/portofolio/pantau2.png"
                       className="h-auto object-contain mx-auto"
                       alt=""
                     />
@@ -113,8 +114,8 @@ export default function Portofolio1() {
                       Visualisasi pertumbuhan jagung mulai dari fase awal hingga
                       siap panen.
                     </p>
-                    <img
-                      src="images/portofolio/pantau3.png"
+                    <Image width={300} height={700}
+                      src="/images/portofolio/pantau3.png"
                       className="h-auto object-contain mx-auto"
                       alt=""
                     />
@@ -131,8 +132,8 @@ export default function Portofolio1() {
                       Melihat kondisi tanaman dan lahan tanpa harus selalu
                       berada di lokasi dengan teknologi virtual tour.
                     </p>
-                    <img
-                      src="images/portofolio/pantau4.png"
+                    <Image width={300} height={700}
+                      src="/images/portofolio/pantau4.png"
                       className="h-auto object-contain mx-auto"
                       alt=""
                     />
@@ -150,8 +151,8 @@ export default function Portofolio1() {
                       mengetahui kondisi spesifik di setiap area melalui
                       satelit.
                     </p>
-                    <img
-                      src="images/portofolio/pantau5.png"
+                    <Image width={300} height={700}
+                      src="/images/portofolio/pantau5.png"
                       className="h-auto object-contain mx-auto"
                       alt=""
                     />

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-
+import Image from "next/image";
 type AccordionItem = {
   title: string;
   content: string;
@@ -80,9 +80,9 @@ export default function Value() {
                 </div>
               </div>
               <div className="w-full lg:w-1/2 px-4">
-                <img
-                  className="block w-full lg:max-w-md h-full lg:ml-auto"
-                  src="images/about/image-right.png"
+                <Image width={200} height={50}
+                  className="block w-full lg:max-w-md  lg:ml-auto"
+                  src="/images/about/image-right.png"
                   alt=""
                 />
               </div>

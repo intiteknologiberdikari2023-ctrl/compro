@@ -1,36 +1,37 @@
+import Image from "next/image";
 export default function Portofolio() {
   return (
     <>
       <section className="bg-gray-primary pb-12 pt-52 lg:pb-24 relative overflow-hidden">
-        <img
+        <Image width={100} height={100}
           className="absolute top-0 left-0 w-full"
-          src="images/background/lines-horizontal-waves-bg.webp"
+          src="/images/background/lines-horizontal-waves-bg.webp"
           alt=""
         />
         <div className="container mx-auto px-4 relative">
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 left-0 mt-36 md:mt-24"
-            src="images/tech/tech-float-1.png"
+            src="/images/tech/tech-float-1.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 left-0 md:ml-10 lg:ml-32 -mt-24 sm:-mt-16"
-            src="images/tech/tech-float-2.png"
+            src="/images/tech/tech-float-2.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 left-1/2 transform -translate-x-1/2 -mt-32"
-            src="images/tech/tech-float-3.png"
+            src="/images/tech/tech-float-3.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 right-0 -mt-24 sm:-mt-10 md:-mr-10 lg:-mr-0"
-            src="images/tech/tech-float-4.png"
+            src="/images/tech/tech-float-4.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-4 right-0 mt-36 md:mt-24 lg:mr-36"
-            src="images/tech/tech-float-5.png"
+            src="/images/tech/tech-float-5.png"
             alt=""
           />
           <div className="text-center mb-32">
@@ -47,9 +48,9 @@ export default function Portofolio() {
               <div className="bg-white rounded-3xl p-8 h-full lg:h-60">
                 <div className="flex flex-wrap -m-3">
                   <div className="w-full lg:w-1/2 p-3">
-                    <img
+                    <Image width={180} height={90}
                       className="mx-auto object-cover lg:mr-0 h-44"
-                      src="images/portofolio/pantau3.png"
+                      src="/images/portofolio/pantau3.png"
                       alt=""
                     />
                   </div>
@@ -92,9 +93,9 @@ export default function Portofolio() {
               <div className="bg-white rounded-3xl p-8 h-full lg:h-60">
                 <div className="flex flex-wrap -m-3">
                   <div className="w-full lg:w-1/2 p-3">
-                    <img
+                    <Image width={180} height={90}
                       className="mx-auto object-cover lg:mr-0 h-44"
-                      src="images/portofolio/kk3.png"
+                      src="/images/portofolio/kk3.png"
                       alt=""
                     />
                   </div>

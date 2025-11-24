@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-
+import Image from "next/image";
 export default function Team() {
   const [activeSlide, setActiveSlide] = useState(0);
 
@@ -47,7 +47,7 @@ export default function Team() {
             </p>
           </div>
           <div className="w-full lg:w-1/2 px-4">
-            <img
+            <Image
               className="block"
               src="images/team/team-members-photos.png"
               alt=""
@@ -65,7 +65,7 @@ export default function Team() {
                 style={{ transform: `translateX(-${activeSlide * 100}%)` }}
               >
                 {slides.map((slide, index) => (
-                  <img
+                  <Image
                     key={index}
                     className="block flex-shrink-0 w-full px-4"
                     src={slide.image}

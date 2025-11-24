@@ -1,10 +1,11 @@
+import Image from "next/image";
 export default function Mision() {
   return (
     <>
       <section className="relative py-12 bg-gradient-30 overflow-hidden">
-        <img
+        <Image width={180} height={90}
           className="absolute top-0 right-0"
-          src="images/background/waves-right-top.webp"
+          src="/images/background/waves-right-top.webp"
           alt=""
         />
         <div className="container mx-auto px-4 relative">

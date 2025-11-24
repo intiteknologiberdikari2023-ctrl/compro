@@ -1,36 +1,37 @@
+import Image from "next/image";
 export default function Portofolio2() {
   return (
     <>
       <section className="bg-gray-primary pb-12 pt-52 lg:pb-24 relative overflow-hidden">
-        <img
+        <Image width={100} height={100}
           className="absolute top-0 left-0 w-full"
-          src="quantam-assets/career/lines-horizontal-waves-bg.png"
+          src="/quantam-assets/career/lines-horizontal-waves-bg.png"
           alt=""
         />
         <div className="container mx-auto px-4 relative">
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 left-0 mt-36 md:mt-24"
-            src="images/tech/tech-float-1.png"
+            src="/images/tech/tech-float-1.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 left-0 md:ml-10 lg:ml-32 -mt-24 sm:-mt-16"
-            src="images/tech/tech-float-2.png"
+            src="/images/tech/tech-float-2.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 left-1/2 transform -translate-x-1/2 -mt-32"
-            src="images/tech/tech-float-3.png"
+            src="/images/tech/tech-float-3.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 right-0 -mt-24 sm:-mt-10 md:-mr-10 lg:-mr-0"
-            src="images/tech/tech-float-4.png"
+            src="/images/tech/tech-float-4.png"
             alt=""
           />
-          <img
+          <Image width={100} height={100}
             className="absolute top-0 right-0 mt-36 md:mt-24 lg:mr-32"
-            src="images/tech/tech-float-5.png"
+            src="/images/tech/tech-float-5.png"
             alt=""
           />
           <div className="text-center mb-32  z-99999">
@@ -77,9 +78,9 @@ export default function Portofolio2() {
                     </p>
                   </div>
                   <div className="flex justify-end items-end">
-                    <img
-                      src="images/portofolio/kk1.png"
-                      className="w-auto"
+                    <Image width={400} height={300}
+                      src="/images/portofolio/kk1.png"
+                      className="h-auto"
                       alt=""
                     />
                   </div>
@@ -95,8 +96,8 @@ export default function Portofolio2() {
                       Memudahkan pengunjung menemukan informasi produk dan
                       layanan yang disediakan
                     </p>
-                    <img
-                      src="images/portofolio/kk2.png"
+                    <Image width={300} height={700}
+                      src="/images/portofolio/kk2.png"
                       className="h-auto object-contain mx-auto"
                       alt=""
                     />
@@ -113,8 +114,8 @@ export default function Portofolio2() {
                       Panduan produk dari penanaman jagung hingga panen, mudah
                       diakses di semua perangkat.
                     </p>
-                    <img
-                      src="images/portofolio/kk3.png"
+                    <Image width={300} height={700}
+                      src="/images/portofolio/kk3.png"
                       className="h-auto object-contain mx-auto"
                       alt=""
                     />
@@ -131,8 +132,8 @@ export default function Portofolio2() {
                       Perjalanan dan komitmen untuk mendukung pertanian,
                       berkembang dengan inovasi dan solusi.
                     </p>
-                    <img
-                      src="images/portofolio/kk4.png"
+                    <Image width={300} height={700}
+                      src="/images/portofolio/kk4.png"
                       className="h-auto object-contain mx-auto"
                       alt=""
                     />
@@ -147,10 +148,10 @@ export default function Portofolio2() {
                     </h4>
                     <p className="text-gray-600 mb-4">
                       Memudahkan calon mitra dan pelanggan menghubungi
-                      perusahaan melalui form online.
+                      perusahaan melalui form online kapan saja dimana saja tanpa batasan
                     </p>
-                    <img
-                      src="images/portofolio/kk5.png"
+                    <Image width={300} height={700}
+                      src="/images/portofolio/kk5.png"
                       className="h-auto object-contain mx-auto"
                       alt=""
                     />

@@ -1,8 +1,9 @@
+import Image from "next/image";
 export default function Description() {
   return (
     <>
       <section className="relative bg-gray-primary pt-24 pb-10 overflow-hidden">
-        {/* <img
+        {/* <Image width={100} height={100}
           className="absolute bottom-0 left-0"
           src="images/background/lines.svg"
           alt=""
@@ -24,9 +25,11 @@ export default function Description() {
           <div className="flex flex-wrap -mx-4 mb-5 items-center">
             <div className="w-full md:w-1/3 px-4">
               <div className="lg:max-w-lg">
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   className="block w-full lg:max-w-md h-full"
-                  src="images/about/image-right-1.png"
+                  src="/images/about/image-right-1.png"
                   alt=""
                 />
               </div>
@@ -38,7 +41,15 @@ export default function Description() {
                 </h1>
               </div>
               <p className="text-xl text-primary mb-10">
-              Kami adalah mitra solusi digital yang inovatif, profesional, dan terpercaya di bawah naungan PT Inti Teknologi Berdikari. Kami mengedepankan inovasi di setiap langkah, menyempurnakan setiap detail solusi, dan menjadikan kolaborasi dengan klien sebagai fondasi utama untuk menciptakan hasil yang relevan, efektif, dan berkelanjutan. Dengan dukungan tim kreatif, profesional, dan berpengalaman, Anda tidak hanya mendapatkan layanan digital, tetapi juga kemitraan yang dapat diandalkan dalam perjalanan transformasi bisnis jangka panjang.
+                Kami adalah mitra solusi digital yang inovatif, profesional, dan
+                terpercaya di bawah naungan PT Inti Teknologi Berdikari. Kami
+                mengedepankan inovasi di setiap langkah, menyempurnakan setiap
+                detail solusi, dan menjadikan kolaborasi dengan klien sebagai
+                fondasi utama untuk menciptakan hasil yang relevan, efektif, dan
+                berkelanjutan. Dengan dukungan tim kreatif, profesional, dan
+                berpengalaman, Anda tidak hanya mendapatkan layanan digital,
+                tetapi juga kemitraan yang dapat diandalkan dalam perjalanan
+                transformasi bisnis jangka panjang.
               </p>
             </div>
           </div>
@@ -66,7 +77,9 @@ export default function Description() {
               </div>
             </div>
           </div>
-          <img
+          <Image
+            width={100}
+            height={100}
             className="rounded-3xl w-full object-cover"
             style={{ height: "540px" }}
             src="https://html-frequencii-full.vercel.app/frequencii-assets/careers/image-careers-people1.png"
