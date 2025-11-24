@@ -1,7 +1,6 @@
 import Values from "./values";
 import Describe from "./description";
 import Mision from "./mision";
-import Team from "./team";
 import Cta from "../components/cta";
 export default function About() {
   return (
@@ -9,7 +8,6 @@ export default function About() {
       <Describe />
       <Mision/>
       <Values />
-      {/* <Team/> */}
       <Cta/>
       
     </>
